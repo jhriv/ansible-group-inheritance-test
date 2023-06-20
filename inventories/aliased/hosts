@@ -1,0 +1,47 @@
+---
+
+all:
+  hosts:
+  children:
+    grouper:
+      children:
+        black:
+        goliath:
+        nassau:
+        queensland:
+        red:
+        snowy:
+        tiger:
+        warsaw:
+        yellowedge:
+        yellowfin:
+    black:
+      hosts:
+        black_grouper:
+    goliath:
+      hosts:
+        american_goliath_grouper:
+    nassau:
+      hosts:
+        nassau_grouper:
+    queensland:
+      hosts:
+        queensland_grouper:
+    red:
+      hosts:
+        red_grouper:
+    snowy:
+      hosts:
+        snowy_grouper:
+    tiger:
+      hosts:
+        tiger_grouper:
+    warsaw:
+      hosts:
+        warsaw_grouper:
+    yellowedge:
+      hosts:
+        yellowedge_grouper:
+    yellowfin:
+      hosts:
+        yellowfin_grouper:
